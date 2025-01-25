@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-primaria: "Inter", serif;
+    --cor-primaria: #FFFFFF;
+    --cor-segundaria: #F9F9F9;
+    --cor-tercearia: #C0C0C0;
+    --cor-background: #167BF7;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: var(--cor-primaria);
+    background-image: url(/assets/Background.png);
+    background-repeat: no-repeat;
+}
+
+.apresentacao {
+    margin: 10% 2.5%;
+    width: 588px;
+    display: flex;
+    flex-direction: column;
+    gap: 219px;
+}
+
+.apresentacao__sessao {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+}
+
+.apresentacao__sessao__titulo {
+    color: var(--cor-primaria);
+    font-size: 28px;
+    font-weight: bold;
+    font-family: var(--fonte-primaria);
+    text-align: justify;
+}
+
+.apresentacao__sessao__oferta__botoes__b1 {
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    background-color: var(--cor-background);
+    width: 512px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border-color: #FFFFFF;
+}
+
+.apresentacao__sessao__oferta__botoes__b2 {
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    width: 512px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border: ridge var(--cor-primaria);
+}
+
+.apresentacao__sessao__subtexto {
+    color: var(--cor-tercearia);
+    font-size: 12px;
+}
+
+.apresentacao__img__professores {
+    width: 1440px;
+}
+
+.apresentacao__info{
+    display: flex;
+    flex-direction: column;
+    gap: 155px;
+}
+
+.apresentacao__info__container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 200%;
+}
+
+.apresentacao__info__container__desc{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.apresentacao__info__container__desc h1{
+    font-size: 40px;
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.apresentacao__info__container__desc p {
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-segundaria);
+}
+
+.apresentacao__info__container__desc a {
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    text-decoration: none;
+    background-color: var(--cor-background);
+    width: 512px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    border-color: #FFFFFF;
+    width: 162.68px;
+}
+
+.apresentacao__info__container__img{
+    width: 498px;
+}
+
+
+.apresentacao__plataformas{
+   display: flex;
+   padding-top: 264px;
+   flex-direction: column;
+   align-items: center;
+   width: 1300px;
+   gap: 40px;
+}
+
+.apresentacao__plataformas h1{
+    font-size: 48px;
+    font-family: var(--fonte-primaria);
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.apresentacao__plataformas__box  {
+    display: flex;
+    gap: 69px;
+}
+
+.apresentacao__plataformas__box__container{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+}
+
+.apresentacao__plataformas__box__container h2{
+    font-size: 32px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+.apresentacao__cabecalho{
+    width: 1200px;
+    margin: 0 120px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 99px;
+}
+
+.apresentacao__cabecalho__sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__cabecalho__sessao__links {
+    display: flex;
+    gap: 16px;
+}
+
+.apresentacao__cabecalho__sessao__links a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+}
+
+.apresentacao__cabecalho__sessao p {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-tercearia);
+    font-size: 16px;
+}
+
